@@ -1,0 +1,11 @@
+[package]
+name = "abi-converter"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "script"
+path = "script.rs"
+
+[dependencies]
+serde_json = "1.0"
